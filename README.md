@@ -11,3 +11,17 @@ Docker
 ```
 brew install orbstack
 ```
+
+
+
+
+Other
+```
+# VLC media player
+brew install --cask vlc
+
+```
+
+
+App
+https://folivora.ai/keyboardcleantool
