@@ -24,4 +24,7 @@ brew install --cask vlc
 
 
 App
+```
 https://folivora.ai/keyboardcleantool
+https://freemacsoft.net/appcleaner/
+```
