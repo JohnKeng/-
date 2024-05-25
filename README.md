@@ -103,12 +103,33 @@ brew install node
 brew install pnpm
 ```
 
+go
+```
+brew install go
+```
+
+php
+```
+brew install php
+```
+-----------------------------------------------------------------------
+
 Docker
 ```
 brew install orbstack
 ```
 
+Docker mysql
+```
+# 拉取鏡像
+docker pull mysql:latest
 
+# 運行（MYSQL_ROOT_PASSWORD 自行更換）
+docker run --name mysql-server -e MYSQL_ROOT_PASSWORD=secretpw -d mysql:latest
+
+# cli 連接
+docker exec -it mysql-server mysql -uroot -p
+```
 
 
 Other
@@ -118,6 +139,7 @@ brew install --cask vlc
 
 ```
 
+-----------------------------------------------------------------------
 
 App
 ```
