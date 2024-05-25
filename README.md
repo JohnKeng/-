@@ -125,7 +125,7 @@ Docker mysql
 docker pull mysql:latest
 
 # 運行（MYSQL_ROOT_PASSWORD 自行更換）
-docker run --name mysql-server -e MYSQL_ROOT_PASSWORD=secretpw -d mysql:latest
+docker run --name mysql-server -e MYSQL_ROOT_PASSWORD=myroot -p 3306:3306 -d mysql:latest
 
 # cli 連接
 docker exec -it mysql-server mysql -uroot -p
@@ -137,7 +137,7 @@ Docker Mongodb
 docker pull mongo:latest
 
 # run
-docker run --name mongodb-server -d mongo:latest
+docker run --name mongodb-server -p 27017:27017 -d mongo:latest
 
 # cli
 docker exec -it mongodb-server mongo
@@ -149,7 +149,7 @@ Docker Redis
 docker pull redis:latest
 
 # run
-docker run --name redis-server -d redis:latest
+docker run --name redis-server -p 6379:6379 -d redis:latest
 
 # cli
 docker exec -it redis-server redis-cli
