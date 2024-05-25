@@ -59,18 +59,18 @@ NEWLINE=$'\n'
 PROMPT='%{$fg_bold[green]%}%p%{$fg[cyan]%}%~ %{$fg_bold[blue]%}$(git_prompt_info)%{$fg_bold[blue]%}% %{$fg[magenta]%}%(?..%?%1v)%{$fg_bold[blue]%} ${NEWLINE} 💀 %{$fg[red]%}$ '
 ```
 
-快捷鍵部分 aliases
+快捷 aliases 連結至 iCloud/local
 
-指定電腦中 .bash_profile 連結至:cloud/local/bash_profile
+指定電腦 .bash_profile 連結至 :cloud/local/bash_profile
 ```
 ln -s ~/Library/Mobile\ Documents/com~apple~CloudDocs/local/bash_profile ~/.bash_profile
 ```
-Zsh 部分
+Zsh 
 ```
 ln -s ~/Library/Mobile\ Documents/com~apple~CloudDocs/local/bash_profile ~/.oh-my-zsh/lib/aliases.zsh
 ```
 
-最後關聯
+最後 source 關聯
 ```
 source ~/.bash_profile
 ```
