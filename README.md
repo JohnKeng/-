@@ -59,7 +59,7 @@ NEWLINE=$'\n'
 PROMPT='%{$fg_bold[green]%}%p%{$fg[cyan]%}%~ %{$fg_bold[blue]%}$(git_prompt_info)%{$fg_bold[blue]%}% %{$fg[magenta]%}%(?..%?%1v)%{$fg_bold[blue]%} ${NEWLINE} 💀 %{$fg[red]%}$ '
 ```
 
-快捷 aliases 連結至 iCloud/local
+快捷 aliases 連結至 iCloud/local/bash_profile
 
 指定電腦 .bash_profile 連結至 :cloud/local/bash_profile
 ```
@@ -80,16 +80,17 @@ source ~/.bash_profile
 
 
 
-連結 ssh 
-
+連結 ssh 至 iCloud/local/ssh
+```
 ln -s ~/Library/Mobile\ Documents/com~apple~CloudDocs/local/ssh ~/.ssh
 
-cd ~/.ssh 
-
+cd ~/.ssh
+```
 
 測試連結是否成功
+```
 ssh -T git@github.com
-
+```
 
 
 -----------------------------------------------------------------------
