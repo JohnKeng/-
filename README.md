@@ -131,7 +131,36 @@ docker run --name mysql-server -e MYSQL_ROOT_PASSWORD=secretpw -d mysql:latest
 docker exec -it mysql-server mysql -uroot -p
 ```
 
+Docker Mongodb
+```
+# image
+docker pull mongo:latest
 
+# run
+docker run --name mongodb-server -d mongo:latest
+
+# cli
+docker exec -it mongodb-server mongo
+```
+
+Docker Redis
+```
+# image
+docker pull redis:latest
+
+# run
+docker run --name redis-server -d redis:latest
+
+# cli
+docker exec -it redis-server redis-cli
+```
+
+
+
+
+
+
+-----------------------------------------------------------------------
 Other
 ```
 # VLC media player
