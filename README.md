@@ -4,6 +4,8 @@ homebrew
 chrome
 iterm2
 VScode
+TablePlus
+Mongodb Compass
 ```
 
 -----------------------------------------------------------------------
